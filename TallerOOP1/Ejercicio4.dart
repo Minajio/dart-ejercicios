@@ -1,5 +1,3 @@
-import "dart:io";
-
 void main(){
   Libro libro1 = new Libro("Libro1", Persona("Andres", 18), "1234-56-789", 312, "Edicion 1", "SENA", "Calle 20", Fecha(2024, 5, 3));
   libro1.mostrarInfo();

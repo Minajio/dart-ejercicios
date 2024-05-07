@@ -1,5 +1,3 @@
-import "dart:io";
-
 void main(){
   final cuentaEmpleado = new CuentaBancaria("1001", "1003928392", 10000, 1000000);
   cuentaEmpleado.mostrar();
